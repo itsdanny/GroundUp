@@ -1,0 +1,20 @@
+﻿    <div class="">
+        <dl class="sub-nav">
+            <dd ng-repeat="product in products" class="active" ng-if="product.ProductID == '1'">
+                <a href="#a-{{product.ProductID}}">{{product.ProductID}}</a>
+            </dd>
+            <dd ng-repeat="product in products" ng-if="product.ProductID != '1'">
+                <a href="#a-{{product.ProductID}}">{{product.ProductID}}</a>
+            </dd>
+        </dl>
+    </div>
+    <div class="row">
+        <hr />
+        <div ng-repeat="product in products">
+            <div style="height: 200px"></div>
+            <a name="a-{{product.ProductID}}"></a>
+            <h3 >{{product.ProductID}}</h3>
+        </div>
+    </div>
+<div class="row">
+</div>
