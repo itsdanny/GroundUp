@@ -1,19 +1,19 @@
 ﻿'use strict';
-var guApp = angular.module('guApp', ['ngResource', 'ngRoute','ngAnimate'])
+var guApp = angular.module('guApp', ['ngResource', 'ngRoute','ngAnimate','ui.bootstrap'])
     .config(function ($routeProvider) {
         $routeProvider.when('/products',
         {
-            templateUrl: 'templates/products.html',
+            templateUrl: 'html/templates/products.html',
             controller: 'ProductController'
         })
          .when('/about',
          {
-             templateUrl: 'templates/about.html',
+             templateUrl: 'html/templates/about.html',
              controller: 'AboutController'
          })
          .when('/contact',
          {
-             templateUrl: 'templates/contact.html',
+             templateUrl: 'html/templates/contact.html',
              controller: 'ContactController'
          })
          .otherwise({

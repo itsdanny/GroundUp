@@ -3,8 +3,9 @@
         products: [
                        {
                            ProductID: '1',
-                           Name: 'Milk',
-                           ProductDescription:'Some fine wholesome milk from yorkshire cows.',
+                           ProductName: 'Milk',
+                           ProductDescription: 'Some fine wholesome milk from yorkshire cows.',
+                           active:true,
                            Images: [{
                                ImageName: 'SilverTop',
                                ImgageURL: '/content/images/products/SilverTop.jpg',
@@ -20,8 +21,9 @@
                        },
                        {
                            ProductID: '2',
-                           Name: 'Cream',
+                           ProductName: 'Cream',
                            ProductDescription: 'Some fine wholesome cream from yorkshire cows.',
+                           active:false,
                            Images: [{
                                ImageName: 'SilverTop',
                                ImgageURL: '/content/images/products/SilverTop.jpg',
@@ -37,8 +39,9 @@
                        },
                         {
                             ProductID: '3',
-                            Name: 'Eggs',
+                            ProductName: 'Eggs',
                             ProductDescription: 'Some fine wholesome eggs from yorkshire chickens.',
+                            active: false,
                             Images: [{
                                 ImageName: 'SilverTop',
                                 ImgageURL: '/content/images/products/SilverTop.jpg',
@@ -54,8 +57,9 @@
                         },
                        {
                            ProductID: '4',
-                           Name: 'Veg Boxes',
+                           ProductName: 'Veg Boxes',
                            ProductDescription: 'Some fine veg from yorkshire farms.',
+                           active: false,
                            Images: [{
                                ImageName: 'SilverTop',
                                ImgageURL: '/content/images/products/SilverTop.jpg',
