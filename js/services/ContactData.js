@@ -2,15 +2,14 @@
     return {
         contacts: [{
             AddressID:'1',
-            Name: 'Old Lindley Farm',
+            Name: 'Old Lindley',
             Address: 'Old Lindley',
             Address1: 'Holywell Green',
             Address2: '',
             Town: 'Halifax',
-            County: 'West Yorkshire',
-            PostCode: 'HX4 9DF',
-            LatLon: '53.667077,-1.861118',
-            Contact: '07513346361'
+            County: 'West Yorkshire',           
+            Contact: '07513346361',
+            Email:'hello@milkandtwoveg.co.uk'
         }]
     }
 });

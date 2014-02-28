@@ -1,6 +1,6 @@
-﻿<div class="row">
-    <ul class="thumbnails">
-        <li ng-repeat="contact in contacts">
+﻿<div>
+    <div class="thumbnails">
+        <div ng-repeat="contact in contacts">
             <div class="row product">
                 <div class="well small9">
                     <h4 class="well-title">{{contact.Name}}</h4>
@@ -8,11 +8,11 @@
                     <p class="well-title">{{contact.Address2}}</p>
                     <p class="well-title">{{contact.Town}}</p>
                     <p class="well-title">{{contact.County}}</p>
-                    <p class="well-title">{{contact.PostCode}}</p>
                     <p class="well-title">{{contact.Contact}}</p>
+                    <p class="well-title"><a href="mailto:{{contact.Email}}?subject=Please%20send%20me%20some%20info%20on...">Email Milk and Two Veg</a></p>
                 </div>
             </div>
-        </li>
-    </ul>
+        </div>
+    </div>
 </div>
 

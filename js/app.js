@@ -16,7 +16,12 @@ var guApp = angular.module('guApp', ['ngResource', 'ngRoute','ngAnimate','ui.boo
              templateUrl: 'html/templates/contact.html',
              controller: 'ContactController'
          })
+        .when('/home',
+         {
+             templateUrl: 'html/templates/home.html',
+             controller: 'HomeController'
+         })
          .otherwise({
-             redirectTo: '/products'
+             redirectTo: '/home'
          });
     });

@@ -1,24 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GroundUp", ".", "{E4C13D17-887A-442F-A421-24B5373743F7}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GroundUp", ".", "{F042A6BA-3A43-45E1-A7DC-D6F5999F163D}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/GroundUp"
-		Debug.AspNetCompiler.PhysicalPath = "..\GroundUp\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\GroundUp\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\GroundUp\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/GroundUp"
-		Release.AspNetCompiler.PhysicalPath = "..\GroundUp\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\GroundUp\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\GroundUp\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "49715"
+		VWDPort = "63834"
 	EndProjectSection
 EndProject
 Global
@@ -26,8 +26,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E4C13D17-887A-442F-A421-24B5373743F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4C13D17-887A-442F-A421-24B5373743F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F042A6BA-3A43-45E1-A7DC-D6F5999F163D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F042A6BA-3A43-45E1-A7DC-D6F5999F163D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

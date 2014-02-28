@@ -58,7 +58,7 @@
                        {
                            ProductID: '4',
                            ProductName: 'Veg Boxes',
-                           ProductDescription: 'Some fine veg from yorkshire farms.',
+                           ProductDescription: 'Some fine veg from yorkshire farms as well as some further away ones.',
                            active: false,
                            Images: [{
                                ImageName: 'SilverTop',
