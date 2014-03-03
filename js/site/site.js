@@ -1,4 +1,6 @@
-﻿$('.navpill').click(function() {
-    $(this).
-    $(this).addClass('active')
-})
+﻿$(document).ready(function(){
+    $('.navpill').click(function () {
+        $(this).siblings().removeClass('active')
+        $(this).addClass('active')
+    })
+});
