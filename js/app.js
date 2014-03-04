@@ -1,5 +1,5 @@
 ﻿'use strict';
-var guApp = angular.module('guApp', ['ngResource', 'ngRoute','ngAnimate','ui.bootstrap'])
+var guApp = angular.module('guApp', ['ngResource', 'ngRoute','ngAnimate','ui.bootstrap','ngSanitize'])
     .config(function ($routeProvider) {
         $routeProvider.when('/products',
         {

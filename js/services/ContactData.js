@@ -8,7 +8,7 @@
             Address2: '',
             Town: 'Halifax',
             County: 'West Yorkshire',           
-            Contact: '07513346361',
+            Contact: '07968513478',
             Email:'hello@milkandtwoveg.co.uk'
         }]
     }
