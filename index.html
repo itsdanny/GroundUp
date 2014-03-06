@@ -2,10 +2,11 @@
 <html lang="en" ng-app="guApp">
 <head>
     <meta charset="utf-8" />
-     <meta name="description" content="Halifax milk and grocery shopping service with free delivery, in the HX3, HX4 and HD3." />
-        <meta name="keywords" content="milk and two veg,milk&amp;2veg,stainland,old lindley,sowood,holywell green,outlane,hx4,hx5,hd3,free food delivery,milk delivery,grocery delivery,milk,eggs,delivery,dairy delivery,about milk and two veg,contact us for an order, free delivery service, local milkman, home milk delivery, doorstep milk delivery,contact milk&amptwoveg; customer service,food delivery,free home milk delivery service,privacy policy, local dairy, local seasonal veg, fresh veg, veg box" />
+    <meta name="description" content="Halifax milk, cream, eggs and grocery shopping service with free delivery in the HD3, HX3 and HX4." />
+    <meta name="keywords" content="about milk and two veg,contact us,contact,milk&amptwoveg,customer service,dairy delivery,delivery,doorstep milk delivery,eggs,find a milkman,food delivery,free delivery service,free food delivery,free home milk delivery service,free range eggs,fresh veg,grocery delivery,hd3,holywell green,home milk delivery,hx4,hx5,local dairy,local milk delivery,local milkman,local seasonal veg,milk,milk and two veg,milk deliveries,milk delivery,milk&amp;2veg,milkman,old lindley,outlane,sowood,stainland,veg box" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Milk | Two Veg - Fresh Healthy Deliveries around HX4 and HX5</title>
+    <meta name="fragment" content="!">
+    <title>Milk | Two Veg - Fresh Healthy Deliveries of dairy and veg boxes in and around HD3, HX4 and HX5</title>
     <style>
 		/* This helps the ng-show/ng-hide animations start at the right place. */
 		/* Since Angular has this but needs to load, this gives us the class early. */
@@ -23,8 +24,8 @@
 <body class="ng-cloak">
     <div class="container" ng-controller="NavController">
         <div class="row">
-            <ul class="nav nav-pills ng-cloak">
-                <li class="navpill">
+            <ul class="nav nav-pills">
+                <li class="navpill active">
                     <a href="#">Home</a>
                 </li>
                 <li class="navpill" ng-repeat="page in nav"><a href="{{page.Url}}">{{page.Page}}</a>
@@ -36,7 +37,7 @@
         </div>
     </div>
     <div class="container example-animate-container">
-        <div ng-view class="row ng-cloak fader-animation"></div>
+        <div ng-view class="row fader-animation"></div>
         <hr />
     </div>
 

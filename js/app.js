@@ -1,5 +1,5 @@
 ﻿'use strict';
-var guApp = angular.module('guApp', ['ngResource', 'ngRoute','ngAnimate','ui.bootstrap','ngSanitize'])
+var guApp = angular.module('guApp', ['ngResource', 'ngRoute', 'ngAnimate', 'ui.bootstrap', 'ngSanitize'])
     .config(function ($routeProvider) {
         $routeProvider.when('/products',
         {
@@ -24,4 +24,10 @@ var guApp = angular.module('guApp', ['ngResource', 'ngRoute','ngAnimate','ui.boo
          .otherwise({
              redirectTo: '/home'
          });
-    });
+    })
+/*
+    ['$location', function ($location) {
+        $location.hashPrefix('!');
+        $location.html5Mode(true);
+    }]
+    */

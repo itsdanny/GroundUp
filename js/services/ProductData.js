@@ -5,21 +5,33 @@
                            ProductID: '1',
                            ProductName: 'Milk and Cream',
                            ProductDescription: 'Milk and cream are supplied by a fabulous Yorkshire herd of Friesians who are looked after by a local farmer',
-                           active:true,
+                           active: true,
                            Images: [{
                                ImageName: 'SilverTop',
-                               ImgageURL: '/content/images/products/SilverTop.jpg',
+                               ImageURL: 'content/images/products/SilverTop.jpg',
                                PricePerUnit: '65p',
                                Description: 'Pastuerised milky',
                            },
                           {
                               ImageName: 'GreenTop',
-                              ImgageURL: '/content/images/products/GreenTop.jpg',
+                              ImageURL: 'content/images/products/GreenTop.jpg',
                               PricePerUnit: '64p',
                               Description: 'UnPastuerised milky'
-                          }]
+                          },
+                          {
+                              ImageName: 'BlueTop',
+                              ImageURL: 'content/images/products/BlueTop.jpg',
+                              PricePerUnit: '64p',
+                              Description: 'Semi Skimmed milky'
+                          },
+                          {
+                              ImageName: 'RedTop',
+                              ImageURL: 'content/images/products/RedTop.jpg',
+                              PricePerUnit: '64p',
+                              Description: 'Fully skimmed milky'
+                          }
+                           ]
                        },
-                      
                         {
                             ProductID: '3',
                             ProductName: 'Eggs',
@@ -27,13 +39,13 @@
                             active: false,
                             Images: [{
                                 ImageName: 'SilverTop',
-                                ImgageURL: '/content/images/products/SilverTop.jpg',
+                                ImageURL: '/content/images/products/SilverTop.jpg',
                                 PricePerUnit: '65p',
                                 Description: 'Pastuerised milky',
                             },
                          {
                              ImageName: 'GreenTop',
-                             ImgageURL: '/content/images/products/GreenTop.jpg',
+                             ImageURL: '/content/images/products/GreenTop.jpg',
                              PricePerUnit: '64p',
                              Description: 'UnPastuerised milky'
                          }]
@@ -45,13 +57,13 @@
                            active: false,
                            Images: [{
                                ImageName: 'SilverTop',
-                               ImgageURL: '/content/images/products/SilverTop.jpg',
+                               ImageURL: '/content/images/products/SilverTop.jpg',
                                PricePerUnit: '65p',
                                Description: 'Pastuerised milky',
                            },
                          {
                              ImageName: 'GreenTop',
-                             ImgageURL: '/content/images/products/GreenTop.jpg',
+                             ImageURL: '/content/images/products/GreenTop.jpg',
                              PricePerUnit: '64p',
                              Description: 'UnPastuerised milky'
                          }]

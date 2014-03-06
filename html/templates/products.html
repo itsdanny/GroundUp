@@ -1,6 +1,19 @@
 ﻿<tabset>
     <tab ng-repeat="product in products" heading="{{product.ProductName}}">
       <div class="well small9">{{product.ProductDescription}}</div>
+        <div id="carouselProducts" class="carousel slide" data-ride="carousel">
+        <div ng-repeat="image in product.Images" class="well small9">               
+            <div class="carousel-inner">
+             <div class="item active">
+                 <img src="{{image.ImageURL}}" alt="{{image.Description}}" />
+                {{image.ImageName}}<br />
+                {{image.PricePerUnit}}
+              <div class="carousel-caption">
+              </div>
+            </div>
+           </div>
+         </div>
+      </div>            
     </tab>
 </tabset>
 <script>
